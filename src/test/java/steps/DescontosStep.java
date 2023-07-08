@@ -29,7 +29,7 @@ public class DescontosStep extends RunCucumberTest {
     }
 
     @Então("^eu vejo o código de desconto$")
-    public void eu_vejo_o_código_de_desconto(){
+    public void eu_vejo_o_codigo_de_desconto(){
         homePage.verificarCupomDesconto("QAZANDO15OFF");
     }
 }
