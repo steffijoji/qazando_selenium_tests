@@ -5,8 +5,9 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
+import support.Utils;
 
-public class HomePage {
+public class HomePage extends Utils {
 
     WebDriver driver;
 
@@ -18,6 +19,7 @@ public class HomePage {
     public void acessarAplicacao() {
         driver.manage().window().maximize();
         driver.get("https://www.qazando.com.br/curso.html");
+        esperarElementoEstarPresente(By.id("btn-ver-cursos"), 10);
         Assert.assertEquals(true, driver.findElement(By.id("btn-ver-cursos")).isDisplayed());
     }
 
