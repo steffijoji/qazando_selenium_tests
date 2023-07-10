@@ -2,6 +2,8 @@ package runner;
 
 import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;
+//import io.cucumber.junit.Cucumber;
+//import io.cucumber.junit.CucumberOptions;
 import org.junit.AfterClass;
 import org.junit.BeforeClass;
 import org.junit.runner.RunWith;
@@ -12,7 +14,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 @CucumberOptions(
         plugin = {"json:target/reports/cucumberReport.json", "html:target/reports/"},
         features = "src/test/resources/features",
-        tags = {"~@ignore"},
+        tags = "~@ignore",
         glue = {"steps"}
 )
 

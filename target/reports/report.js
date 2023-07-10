@@ -38,34 +38,34 @@ formatter.step({
 formatter.step({
   "line": 12,
   "name": "eu vejo o código de desconto",
-  "keyword": "Então "
+  "keyword": "Entao "
 });
 formatter.match({
   "location": "DescontosStep.acessar_site_qazando()"
 });
 formatter.result({
-  "duration": 5142119100,
+  "duration": 3572951100,
   "status": "passed"
 });
 formatter.match({
   "location": "DescontosStep.eu_preencho_meu_e_mail()"
 });
 formatter.result({
-  "duration": 2115842600,
+  "duration": 2134777400,
   "status": "passed"
 });
 formatter.match({
   "location": "DescontosStep.clico_em_ganhar_cupom()"
 });
 formatter.result({
-  "duration": 41762500,
+  "duration": 79948700,
   "status": "passed"
 });
 formatter.match({
-  "location": "DescontosStep.eu_vejo_o_código_de_desconto()"
+  "location": "DescontosStep.eu_vejo_o_codigo_de_desconto()"
 });
 formatter.result({
-  "duration": 27487600,
+  "duration": 37402000,
   "status": "passed"
 });
 });

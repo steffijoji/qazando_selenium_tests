@@ -9,4 +9,4 @@ Funcionalidade: Receber o cupom de desconto da Qazando
     Dado que estou no site da Qazando
     Quando eu preencho meu e-mail
     E clico em ganhar cupom
-    Então eu vejo o código de desconto
+    Entao eu vejo o código de desconto

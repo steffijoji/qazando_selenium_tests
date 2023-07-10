@@ -18,7 +18,7 @@
         "steps": [
           {
             "result": {
-              "duration": 5142119100,
+              "duration": 3572951100,
               "status": "passed"
             },
             "line": 9,
@@ -30,7 +30,7 @@
           },
           {
             "result": {
-              "duration": 2115842600,
+              "duration": 2134777400,
               "status": "passed"
             },
             "line": 10,
@@ -42,7 +42,7 @@
           },
           {
             "result": {
-              "duration": 41762500,
+              "duration": 79948700,
               "status": "passed"
             },
             "line": 11,
@@ -54,15 +54,15 @@
           },
           {
             "result": {
-              "duration": 27487600,
+              "duration": 37402000,
               "status": "passed"
             },
             "line": 12,
             "name": "eu vejo o código de desconto",
             "match": {
-              "location": "DescontosStep.eu_vejo_o_código_de_desconto()"
+              "location": "DescontosStep.eu_vejo_o_codigo_de_desconto()"
             },
-            "keyword": "Então "
+            "keyword": "Entao "
           }
         ]
       }
