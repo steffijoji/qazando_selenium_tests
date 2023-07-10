@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: runner.RunCucumberTest
 -------------------------------------------------------------------------------
-Tests run: 5, Failures: 0, Errors: 2, Skipped: 3, Time elapsed: 1.649 s <<< FAILURE! - in runner.RunCucumberTest
-Cenário: Visualizar código de desconto.Dado que estou no site da Qazando  Time elapsed: 0.005 s  <<< ERROR!
+Tests run: 5, Failures: 0, Errors: 2, Skipped: 3, Time elapsed: 2.013 s <<< FAILURE! - in runner.RunCucumberTest
+Cenário: Visualizar código de desconto.Dado que estou no site da Qazando  Time elapsed: 0.008 s  <<< ERROR!
 java.lang.ExceptionInInitializerError
 	at cucumber.deps.com.thoughtworks.xstream.XStream.setupConverters(XStream.java:820)
 	at cucumber.deps.com.thoughtworks.xstream.XStream.<init>(XStream.java:574)
@@ -44,7 +44,7 @@ java.lang.ExceptionInInitializerError
 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-	at ✽.Dado que estou no site da Qazando(desconto.feature:9)
+	at ✽.Dado que estou no site da Qazando(desconto.feature:11)
 Caused by: java.lang.reflect.InaccessibleObjectException: Unable to make field private final java.util.Comparator java.util.TreeMap.comparator accessible: module java.base does not "opens java.util" to unnamed module @12843fce
 	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:354)
 	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:297)
@@ -93,7 +93,7 @@ Caused by: java.lang.reflect.InaccessibleObjectException: Unable to make field p
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 
-Cenário: Visualizar código de desconto  Time elapsed: 0.007 s  <<< ERROR!
+Cenário: Visualizar código de desconto  Time elapsed: 0.009 s  <<< ERROR!
 java.lang.ExceptionInInitializerError
 	at cucumber.deps.com.thoughtworks.xstream.XStream.setupConverters(XStream.java:820)
 	at cucumber.deps.com.thoughtworks.xstream.XStream.<init>(XStream.java:574)
@@ -135,7 +135,7 @@ java.lang.ExceptionInInitializerError
 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-	at ✽.Dado que estou no site da Qazando(desconto.feature:9)
+	at ✽.Dado que estou no site da Qazando(desconto.feature:11)
 Caused by: java.lang.reflect.InaccessibleObjectException: Unable to make field private final java.util.Comparator java.util.TreeMap.comparator accessible: module java.base does not "opens java.util" to unnamed module @12843fce
 	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:354)
 	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:297)
